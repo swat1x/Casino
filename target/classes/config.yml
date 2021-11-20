@@ -1,0 +1,31 @@
+jackpot:
+  table1:
+    bet:
+      min: 10
+      max: 500
+    hologram:
+      - "&7> &eИгральный стол &7<"
+      - "&7От 10$ до 500$"
+      - ""
+      - "Встаньте рядом со столом"
+      - "и напишите &e/bet <сумма>"
+      - ""
+      - "В игре &e%usersAmount&f человек"
+      - "Общий банк &e%bank&f долларов"
+    place:
+      world: world
+      x: 0.5
+      y: 75
+      z: 0.5
+gameSettings:
+  messages:
+    jackpot:
+      goToTable: '&cПодойдите к столу для джекпотов'
+      insertAmount: '&cВведите сумму ставки'
+      notInteger: '&cСумма не является числом'
+      tooLow: '&cСумма меньше чем &f%amount$'
+      tooHigh: '&cСумма больше чем &f%amount$'
+      alreadyBet: '&cВы уже сделали ставку за этим столом'
+      bet: '&eКазино: &fВы успешно сделали ставку в &a%amount$'
+      timeToEnd: '&eКазино: &fДо конца игры &a%time секунд'
+      victoryMessage: '&eКазино: &fИгрок &e%player &fвыйграл &a%amount$ &fс шансом &a%chanсe%'

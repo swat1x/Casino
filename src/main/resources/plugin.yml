@@ -1,0 +1,12 @@
+name: Casino
+version: '${project.version}'
+main: ru.swat1x.casino.Casino
+api-version: 1.16
+authors: [ swat1x ]
+depend:
+  - HolographicDisplays
+softdepend:
+  - HolographicDisplays
+commands:
+  casino:
+  bet:
